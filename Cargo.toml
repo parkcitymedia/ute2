@@ -1,0 +1,18 @@
+[package]
+name = "ute2"
+version = "0.1.0"
+authors = ["parkcitymedia <blakemichaelgaynor@gmail.com>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+description = "ute2 - (U)biquitous (T)ile (E)ngine (2) - lib for parsing and manipulating abstract polygons with tagged sides"
+homepage = "https://github.com/parkcitymedia/ute"
+documentation = "https://github.com/parkcitymedia/ute"
+repository = "https://github.com/parkcitymedia/ute"
+readme = "README.md"
+keywords = ["ute2","tile","shape","generator","tilemap"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = "1.0"
+serde_json = "1.0"
